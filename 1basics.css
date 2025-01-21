@@ -1,0 +1,32 @@
+h1{
+    text-align: left;
+    text-decoration: underline;
+    color: black;
+    /* font-size: smaller; */
+    /* text-decoration: underline; */
+}
+
+p{
+    color: darkgreen;
+    text-decoration: solid;
+}
+
+#article1{
+    text-align: left;
+    background-color: yellow;
+}
+
+.paraclass{
+    background-color: aquamarine;
+}
+
+p,article{
+    width: 500px;
+}
+
+p.paraclass{
+    text-align: center;
+}
+#article1{
+    text-align: center;
+}

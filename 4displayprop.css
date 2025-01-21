@@ -1,0 +1,23 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+    .firstdiv{
+        width: 300px;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
+        border: 2px solid brown;
+        display: inline-block;
+    }
+    .seconddiv{
+        width: 300px;
+        padding: 10px 10px 10px 10px;
+        margin: 10px 10px 10px 10px;
+        display: inline;
+        border: 2px solid brown;
+    }
+    span{
+        border: 2px solid black;
+        display: block;
+    }

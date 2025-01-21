@@ -1,0 +1,128 @@
+
+<!-- all about forms -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+    
+    <form>
+       <fieldset>
+        <legend>General Biodata </legend>
+        <label for="name">Name</label>
+        <input type="text" id="name">
+        <br>
+        <br>
+
+       
+        <input type="radio" name="gender" id="Gender">
+        <label for="Gender">Male</label>
+        <br>
+        <br>
+        
+        <input type="radio" name="gender" id="Gender1">
+        <label for="Gender1">Female</label>
+        <br>
+        <br>
+
+        
+        <label for="dob">Date of Birth</label>
+        <input type="date" id="dob">
+        <br>
+        <br>
+
+        <label for="States">States</label>
+        <select name="State" id="States">state
+            <option value="Maharashtra">maharshtra</option>
+            <option value="Madhya pradesh">mp</option>
+            <option value="other">outsider</option>
+        </select>
+        <br>
+        <br>
+
+        <label for="adress">Address</label>
+        <textarea name="address" id="adress" rows="10" cols="30" placeholder="current address"></textarea>
+        <br>
+        <br>
+        
+
+        <label for="email">Email Id:</label>
+        <input type="email" id="email" placeholder="example@gmail.com" required/>
+        
+
+        <br>
+        <br>
+        <label for="password">Password</label>
+        <input type="password" id="password" placeholder="least 8 characters">
+
+        <br>
+        <br>
+        <label for="mobile no.">mobile/tel</label>
+        <input type="tel" id="mobile no." pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+        <br>
+        <br>
+        <input type="file" id="files" name="files" >
+        <br>
+        <br>
+      
+        <input type="image" id="image" name="image" alt="Have a good day" src=https://th.bing.com/th/id/OIP.TqCbovmLULy2o-akEijiPAHaHZ?rs=1&pid=ImgDetMain
+        width="25px" height="25px" >
+        <br>
+        <br>
+
+        <label for="checkbox"> Confirm Above information is correct</label>
+        <br>
+        <br>
+        <label for="checkbox" >Yes I confirm</label>
+        <input type="checkbox" id="checkbox" name="check" value="1">
+        <label for="checkbox">No I have to recheck</label>
+        <input type="checkbox" id="checkbox" name="check" value="1">
+        <br>
+        <br>
+        <button>submit</button>
+
+        
+       </fieldset>
+    </form>
+    <!-- <fieldset>
+        <legend>other</legend>
+        <svg width="400" height="200">
+           
+            <rect x="10" y="10" width="150" height="100" fill="green" />
+           
+            <circle cx="250" cy="100" r="50" fill="orange" />
+            
+            <line x1="300" y1="10" x2="300" y2="190" stroke="black" stroke-width="2" />
+        </svg>
+    </fieldset>
+    <br>
+    <br>
+    <fieldset>
+        <legend>more</legend>
+         <template id="myTemplate">
+        <div class="item">
+            <h3>Item Title</h3>
+            <p>This is a description of the item.</p>
+        </div>
+    </template>
+
+    <button id="addItem">Add Item</button>
+    <div id="itemsContainer"></div>
+
+    <script>
+        const button = document.getElementById('addItem');
+        const container = document.getElementById('itemsContainer');
+        const template = document.getElementById('myTemplate');
+
+        button.addEventListener('click', () => {
+            const clone = document.importNode(template.content, true);
+            container.appendChild(clone);
+        });
+    </script>
+    </fieldset> -->
+</body>
+</html>

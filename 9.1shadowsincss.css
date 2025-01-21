@@ -1,0 +1,7 @@
+/* changing the vaaribles cusatom variables */
+:root{
+    --primary-size: 160px;
+}
+#header2{
+    text-shadow: 3px 2px 5px white;
+}
